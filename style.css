@@ -1,1 +1,92 @@
-background-color: lightseagreen;
+
+    
+    body{
+    background-color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#div1
+{
+    background-color: lavender;
+    border: 2px solid rgb(112, 136, 144);
+    border-radius: 10px 40px;
+    width: 80%;
+    display: block;
+    margin-top: 20px;;
+   margin-inline: auto;
+  
+}
+.logo
+{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: OrangeRed;
+    gap: 15px;
+    flex-shrink:0;
+    border-radius: 50x;
+    border: 2px solid goldenrod ;
+    width: 190px;
+}
+
+#sbuttl
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: OrangeRed;
+    justify-content: center;
+    
+}
+
+.menucont
+{
+    background-color: paleTurquoise;
+    font-weight: bold;
+    /*overflow: auto;*/
+    white-space: nowrap;
+    margin-top: 0px;
+    padding: 20px;
+   
+}
+
+.mylist
+    {
+        overflow: hidden;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        width: 100%;
+    }
+
+img
+{
+    display: block;
+    width: 50%;
+    margin: auto;
+
+}
+
+.h1, h2
+{
+    color: blue;
+}
+
+ol
+{
+    padding-left: 10%;
+
+}
+a:hover
+{
+  background-color: yellow;  
+}
+
+#footer
+{
+    /*align-items:center;*/
+    display: flex;
+    justify-content: center;
+    background-color: paleTurquoise;
+  margin-top: 10px;
+}
